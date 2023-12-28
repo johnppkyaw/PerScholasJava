@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aadaeab-89e1-4939-a368-9fd38a3617cb" name="Changes" comment="" />
+    <list default="true" id="3aadaeab-89e1-4939-a368-9fd38a3617cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M303_10/GLAB303.10.1/GLAB303.10.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M303_10/GLAB303.10.1/src/Boy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M303_10/GLAB303.10.1/src/Girl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M303_10/GLAB303.10.1/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M303_10/M303_10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M303_10/PA303.10.1/PA303.10.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M303_10/PA303.10.1/src/FireMonster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M303_10/PA303.10.1/src/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M303_10/PA303.10.1/src/StoneMonster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M303_10/PA303.10.1/src/WaterMonster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2ZPby4TramEHLTzdO54CVDmpl7a" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -17,11 +44,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.TestMonster.executor": "Run",
+    "Application.TestPeople.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "corretto-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/johnppkyaw/Desktop/Per Scholas/303",
+    "last_opened_file_path": "/Users/johnppkyaw/Desktop/PerScholas/303",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/johnppkyaw/Desktop/PerScholas/303/M303_10/PA303.10.1/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -44,10 +82,24 @@
       <option name="presentableId" value="Default" />
       <updated>1702326912876</updated>
       <workItem from="1702326913902" duration="36000" />
+      <workItem from="1702966478003" duration="1881000" />
+      <workItem from="1703192522956" duration="3000" />
+      <workItem from="1703727379946" duration="2098000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/M303_10/src/Main.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
