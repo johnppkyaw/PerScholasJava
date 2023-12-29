@@ -5,18 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3aadaeab-89e1-4939-a368-9fd38a3617cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M303_10/GLAB303.10.2/GLAB303.10.2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M303_10/GLAB303.10.2/src/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M303_10/GLAB303.10.2/src/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M303_10/GLAB303.10.2/src/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M303_10/GLAB303.10.2/src/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M303_10/GLAB303.10.2/src/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M303_10/GLAB303.10.3/GLAB303.10.3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M303_10/PA303.10.3/PA303.10.3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M303_10/PA303.10.3/src/AdultUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M303_10/PA303.10.3/src/KidUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M303_10/PA303.10.3/src/LibraryUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -66,7 +54,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/johnppkyaw/Desktop/PerScholas/303/M303_10/GLAB303.10.3/src/Main.java",
+    "onboarding.tips.debug.path": "/Users/johnppkyaw/Desktop/PerScholas/303/M303_10/GLAB303.10.4/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -92,7 +80,7 @@
       <workItem from="1702966478003" duration="1881000" />
       <workItem from="1703192522956" duration="3000" />
       <workItem from="1703727379946" duration="5493000" />
-      <workItem from="1703823622853" duration="2726000" />
+      <workItem from="1703823622853" duration="5350000" />
     </task>
     <servers />
   </component>
@@ -121,6 +109,11 @@
           <url>file://$PROJECT_DIR$/M303_10/GLAB303.10.3/src/myRunner.java</url>
           <line>12</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/M303_10/GLAB303.10.4/src/MyRunner.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
