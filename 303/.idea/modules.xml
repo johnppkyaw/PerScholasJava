@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/303.iml" filepath="$PROJECT_DIR$/.idea/303.iml" />
       <module fileurl="file://$PROJECT_DIR$/M303.11/GL303.11.1/GL303.11.1.iml" filepath="$PROJECT_DIR$/M303.11/GL303.11.1/GL303.11.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M303.11/GL303.11.2/GL303.11.2.iml" filepath="$PROJECT_DIR$/M303.11/GL303.11.2/GL303.11.2.iml" />
       <module fileurl="file://$PROJECT_DIR$/M303.10/GLAB303.10.1/GLAB303.10.1.iml" filepath="$PROJECT_DIR$/M303.10/GLAB303.10.1/GLAB303.10.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/M303.10/GLAB303.10.2/GLAB303.10.2.iml" filepath="$PROJECT_DIR$/M303.10/GLAB303.10.2/GLAB303.10.2.iml" />
       <module fileurl="file://$PROJECT_DIR$/M303.10/GLAB303.10.3/GLAB303.10.3.iml" filepath="$PROJECT_DIR$/M303.10/GLAB303.10.3/GLAB303.10.3.iml" />
