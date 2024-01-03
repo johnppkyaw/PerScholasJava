@@ -7,6 +7,7 @@
     <list default="true" id="3aadaeab-89e1-4939-a368-9fd38a3617cb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +47,11 @@
     "Application.MyRunner.executor": "Run",
     "Application.MyRunner2.executor": "Run",
     "Application.RemoveElementsFromArrayList.executor": "Run",
+    "Application.SearchElementsInArrayListExample.executor": "Run",
     "Application.TestMonster.executor": "Run",
     "Application.TestPeople.executor": "Run",
     "Application.myRunner.executor": "Run",
+    "Application.showData.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -61,7 +64,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/johnppkyaw/Desktop/PerScholas/303/M303.11/GL303.11.2/src/Main.java",
+    "onboarding.tips.debug.path": "/Users/johnppkyaw/Desktop/PerScholas/303/M303.10/GLAB303.11.3/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -95,7 +98,9 @@
       <workItem from="1703727379946" duration="5493000" />
       <workItem from="1703823622853" duration="5434000" />
       <workItem from="1703893157076" duration="4561000" />
-      <workItem from="1703989045686" duration="2030000" />
+      <workItem from="1703989045686" duration="2767000" />
+      <workItem from="1704207146339" duration="1284000" />
+      <workItem from="1704318303462" duration="490000" />
     </task>
     <servers />
   </component>
@@ -144,6 +149,11 @@
           <url>file://$PROJECT_DIR$/M303.11/GL303.11.2/src/Main.java</url>
           <line>12</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/M303.10/GLAB303.11.3/src/showData.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

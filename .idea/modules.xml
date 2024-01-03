@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/302/302.iml" filepath="$PROJECT_DIR$/302/302.iml" />
+      <module fileurl="file://$PROJECT_DIR$/303/M303.11/GL303.11.1/GL303.11.1.iml" filepath="$PROJECT_DIR$/303/M303.11/GL303.11.1/GL303.11.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/303/M303.11/GL303.11.2/GL303.11.2.iml" filepath="$PROJECT_DIR$/303/M303.11/GL303.11.2/GL303.11.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/303/GL303.2.1CoreJavaOperators/GL303.2.1CoreJavaOperators.iml" filepath="$PROJECT_DIR$/303/GL303.2.1CoreJavaOperators/GL303.2.1CoreJavaOperators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/303/GL303.2.2CoreJavaTypeCasting/GL303.2.2CoreJavaTypeCasting.iml" filepath="$PROJECT_DIR$/303/GL303.2.2CoreJavaTypeCasting/GL303.2.2CoreJavaTypeCasting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/303/M303.10/GLAB303.10.1/GLAB303.10.1.iml" filepath="$PROJECT_DIR$/303/M303.10/GLAB303.10.1/GLAB303.10.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/303/M303.10/GLAB303.10.2/GLAB303.10.2.iml" filepath="$PROJECT_DIR$/303/M303.10/GLAB303.10.2/GLAB303.10.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/303/M303.10/GLAB303.10.3/GLAB303.10.3.iml" filepath="$PROJECT_DIR$/303/M303.10/GLAB303.10.3/GLAB303.10.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/303/M303.10/GLAB303.10.4/GLAB303.10.4.iml" filepath="$PROJECT_DIR$/303/M303.10/GLAB303.10.4/GLAB303.10.4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/303/M303.10/M303.10.iml" filepath="$PROJECT_DIR$/303/M303.10/M303.10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/303/M303.11/M303.11.iml" filepath="$PROJECT_DIR$/303/M303.11/M303.11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/303/M303.3/M303.3.iml" filepath="$PROJECT_DIR$/303/M303.3/M303.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/303/M303.4/M303.4.iml" filepath="$PROJECT_DIR$/303/M303.4/M303.4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/303/M303.5/M303.5.iml" filepath="$PROJECT_DIR$/303/M303.5/M303.5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/303/M303.6/M303.6.iml" filepath="$PROJECT_DIR$/303/M303.6/M303.6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/303/M303.7/M303.7.iml" filepath="$PROJECT_DIR$/303/M303.7/M303.7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/303/M303.9/M303.9.iml" filepath="$PROJECT_DIR$/303/M303.9/M303.9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/303/Module303/Module303.iml" filepath="$PROJECT_DIR$/303/Module303/Module303.iml" />
+      <module fileurl="file://$PROJECT_DIR$/303/M303.10/PA303.10.1/PA303.10.1.iml" filepath="$PROJECT_DIR$/303/M303.10/PA303.10.1/PA303.10.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/303/M303.10/PA303.10.3/PA303.10.3.iml" filepath="$PROJECT_DIR$/303/M303.10/PA303.10.3/PA303.10.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/303/PA303.2.1CoreJavaVariables/PA303.2.1CoreJavaVariables.iml" filepath="$PROJECT_DIR$/303/PA303.2.1CoreJavaVariables/PA303.2.1CoreJavaVariables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PerScholas.iml" filepath="$PROJECT_DIR$/.idea/PerScholas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/303/test/test.iml" filepath="$PROJECT_DIR$/303/test/test.iml" />
+    </modules>
+  </component>
+</project>
