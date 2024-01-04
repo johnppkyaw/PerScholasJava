@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-import java.util.Iterator;
+
 public class showData {
     public static void main(String[] args) {
         // instantioation to class AddDataToArrayList

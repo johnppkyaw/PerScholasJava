@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class AddDataToArrayList {
     public  ArrayList<Book> bookdetails() {
