@@ -57,6 +57,7 @@
     "Application.MyRunner.executor": "Run",
     "Application.MyRunner2.executor": "Run",
     "Application.RemoveElementsFromArrayList.executor": "Run",
+    "Application.ScanDelimiterdFile.executor": "Run",
     "Application.SearchElementsInArrayListExample.executor": "Run",
     "Application.TestMonster.executor": "Run",
     "Application.TestPeople.executor": "Run",
@@ -82,7 +83,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/johnppkyaw/Desktop/PerScholas/303/M303.11/GL303.11.7/src/Main.java",
+    "onboarding.tips.debug.path": "/Users/johnppkyaw/Desktop/PerScholas/303/M303.13/ScanDelimiteerdFile/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -92,6 +93,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/M303.13" />
       <recent name="$PROJECT_DIR$/M303.11" />
       <recent name="$PROJECT_DIR$/M303.10" />
     </key>
@@ -121,6 +123,7 @@
       <workItem from="1704207146339" duration="1284000" />
       <workItem from="1704318303462" duration="3661000" />
       <workItem from="1704397313542" duration="5071000" />
+      <workItem from="1704745615503" duration="650000" />
     </task>
     <servers />
   </component>
@@ -204,6 +207,16 @@
           <url>file://$PROJECT_DIR$/M303.11/GL303.11.7/src/PhoneDirectoryWithTreeMap.java</url>
           <line>2</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/M303.13/src/Main.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/M303.13/ScanDelimiteerdFile/src/Main.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
