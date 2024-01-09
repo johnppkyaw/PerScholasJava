@@ -3,8 +3,8 @@ import java.util.*;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    final static String SALES_REPS_FILE = "/Users/johnppkyaw/Downloads/SalesReps.csv";
-    final static String COMPANY_FILE = "/Users/johnppkyaw/Downloads/Company.csv";
+    final static String SALES_REPS_FILE = "SalesReps.csv";
+    final static String COMPANY_FILE = "Company.csv";
 
     public static void main(String[] args) throws IOException {
         ArrayList<Company> companyList = new ArrayList<>();
