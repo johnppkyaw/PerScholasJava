@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aadaeab-89e1-4939-a368-9fd38a3617cb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M303.13/src/MyRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/M303.13/src/MyRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M303.13/src/ScanDelimiterdFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/M303.13/src/ScanDelimiterdFile.java" afterDir="false" />
-    </list>
+    <list default="true" id="3aadaeab-89e1-4939-a368-9fd38a3617cb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,62 +32,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.AccessElementsFromArrayListExample.executor": "Run",
-    "Application.CreateArrayListExample.executor": "Run",
-    "Application.CreateArrayListFromCollectionExample.executor": "Run",
-    "Application.ExampleFour.executor": "Run",
-    "Application.ExampleOne.executor": "Run",
-    "Application.ExampleOneHashMap.executor": "Run",
-    "Application.ExampleThree.executor": "Run",
-    "Application.ExampleTwo.executor": "Run",
-    "Application.Exampletwo.executor": "Run",
-    "Application.ExampletwoHashMap.executor": "Run",
-    "Application.IterateOverArrayList.executor": "Run",
-    "Application.LibraryInterfaceDemo.executor": "Run",
-    "Application.LinkedListExample.executor": "Run",
-    "Application.LinkedListSortExample.executor": "Run",
-    "Application.MainComparator.executor": "Run",
-    "Application.Maincomparator.executor": "Run",
-    "Application.MyRunner.executor": "Run",
-    "Application.MyRunner2.executor": "Run",
-    "Application.RemoveElementsFromArrayList.executor": "Run",
-    "Application.ScanDelimiterdFile.executor": "Run",
-    "Application.SearchElementsInArrayListExample.executor": "Run",
-    "Application.TestMonster.executor": "Run",
-    "Application.TestPeople.executor": "Run",
-    "Application.TestPhoneDirectoryWithTreeMap.executor": "Run",
-    "Application.TreeSetExampleCom.executor": "Run",
-    "Application.TreesetExampleone.executor": "Run",
-    "Application.TreesetExamplethree.executor": "Run",
-    "Application.TreesetExampletwo.executor": "Run",
-    "Application.exampleTreemapOne.executor": "Run",
-    "Application.exampleTreemapTwo.executor": "Run",
-    "Application.main.executor": "Run",
-    "Application.myRunner.executor": "Run",
-    "Application.showData.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "corretto-21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/johnppkyaw/Desktop/PerScholas/303",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/johnppkyaw/Desktop/PerScholas/303/M303.13/ScanDelimiteerdFile/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AccessElementsFromArrayListExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreateArrayListExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreateArrayListFromCollectionExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExampleFour.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExampleOne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExampleOneHashMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExampleThree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExampleTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exampletwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExampletwoHashMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IterateOverArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LibraryInterfaceDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListSortExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainComparator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Maincomparator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyRunner2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveElementsFromArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ScanDelimiterdFile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SearchElementsInArrayListExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestMonster.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestPeople.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestPhoneDirectoryWithTreeMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TreeSetExampleCom.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TreesetExampleone.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TreesetExamplethree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TreesetExampletwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.exampleTreemapOne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.exampleTreemapTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.myRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.showData.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/johnppkyaw/Desktop/PerScholas/303&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/johnppkyaw/Desktop/PerScholas/303/M303.13/ScanDelimiteerdFile/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/M303.13" />
@@ -125,6 +121,7 @@
       <workItem from="1704318303462" duration="3661000" />
       <workItem from="1704397313542" duration="5071000" />
       <workItem from="1704745615503" duration="2185000" />
+      <workItem from="1704821523896" duration="51000" />
     </task>
     <servers />
   </component>
