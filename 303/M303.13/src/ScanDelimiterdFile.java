@@ -4,8 +4,6 @@ import java.util.Scanner;
 import java.util.ArrayList;
 public class ScanDelimiterdFile{
     public static void main(String[] args) throws FileNotFoundException {
-
-
         try {
             String location = "cars.csv";
             File file = new File(location);
@@ -29,8 +27,6 @@ public class ScanDelimiterdFile{
                 System.out.println("Origin :" + line[8]);
                 System.out.println("===============================");
             }
-
-
         } catch (FileNotFoundException e) {
             System.out.println("File not found! ");
             e.printStackTrace();
