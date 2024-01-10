@@ -3,11 +3,10 @@ import java.util.*;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    final static String SALES_REPS_FILE = "SalesReps.csv";
-    final static String COMPANY_FILE = "Company.csv";
 
     public static void main(String[] args) throws IOException {
         ArrayList<Company> companyList = new ArrayList<>();
+        final String COMPANY_FILE = "Company.csv";
         BufferedReader companyReader = new BufferedReader(new FileReader(COMPANY_FILE));
         // Skip header lines
         companyReader.readLine(); // Skip Companies header
@@ -38,7 +37,6 @@ public class Main {
             companyList.add(currCompany);
 
         }
-        //get salesRep List<lastname, repId>
         ArrayList<SalesRep> salesRepList = getSalesReps();
 
         //ask for last name;
@@ -83,6 +81,7 @@ public class Main {
     private static ArrayList<SalesRep> getSalesReps() {
         //Map<String, String> salesToCompanyMap = new HashMap<>();
         ArrayList<SalesRep> salesRepList = new ArrayList<>();
+        final String SALES_REPS_FILE = "SalesReps.csv";
         try {
             BufferedReader salesReader = new BufferedReader(new FileReader(SALES_REPS_FILE));
             // Skip header lines
