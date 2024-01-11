@@ -47,8 +47,9 @@
     "Application.ExampleTwo.executor": "Run",
     "Application.Exampletwo.executor": "Run",
     "Application.ExampletwoHashMap.executor": "Run",
+    "Application.FuncInterfaceGeneric.executor": "Run",
     "Application.FunctionJavaUtil.executor": "Run",
-    "Application.FunctionJavaUtil3.executor": "Debug",
+    "Application.FunctionJavaUtil3.executor": "Run",
     "Application.IterateOverArrayList.executor": "Run",
     "Application.LibraryInterfaceDemo.executor": "Run",
     "Application.LinkedListExample.executor": "Run",
@@ -73,6 +74,7 @@
     "Application.exampleTreemapTwo.executor": "Run",
     "Application.funcInterface3.executor": "Run",
     "Application.main.executor": "Run",
+    "Application.mainEntryPoint.executor": "Run",
     "Application.myRunner.executor": "Run",
     "Application.showData.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -131,7 +133,7 @@
       <workItem from="1704821523896" duration="51000" />
       <workItem from="1704821769127" duration="2552000" />
       <workItem from="1704845979007" duration="1862000" />
-      <workItem from="1704986382551" duration="3195000" />
+      <workItem from="1704986382551" duration="4011000" />
     </task>
     <servers />
   </component>
