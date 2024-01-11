@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3aadaeab-89e1-4939-a368-9fd38a3617cb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +48,7 @@
     "Application.Exampletwo.executor": "Run",
     "Application.ExampletwoHashMap.executor": "Run",
     "Application.FunctionJavaUtil.executor": "Run",
+    "Application.FunctionJavaUtil3.executor": "Debug",
     "Application.IterateOverArrayList.executor": "Run",
     "Application.LibraryInterfaceDemo.executor": "Run",
     "Application.LinkedListExample.executor": "Run",
@@ -71,6 +71,7 @@
     "Application.TreesetExampletwo.executor": "Run",
     "Application.exampleTreemapOne.executor": "Run",
     "Application.exampleTreemapTwo.executor": "Run",
+    "Application.funcInterface3.executor": "Run",
     "Application.main.executor": "Run",
     "Application.myRunner.executor": "Run",
     "Application.showData.executor": "Run",
@@ -130,7 +131,7 @@
       <workItem from="1704821523896" duration="51000" />
       <workItem from="1704821769127" duration="2552000" />
       <workItem from="1704845979007" duration="1862000" />
-      <workItem from="1704986382551" duration="2335000" />
+      <workItem from="1704986382551" duration="3195000" />
     </task>
     <servers />
   </component>
