@@ -1,0 +1,1 @@
+select c.name 'Course Name' from course c left join facultyCourse f on c.id = f.courseId group by c.name having count(f.facultyId) = 0 order by c.name;
