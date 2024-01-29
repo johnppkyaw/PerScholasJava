@@ -16,7 +16,7 @@ public class DepartmentController {
 
 //        updateDepartment(session,3);
 
-        deleteDepartment(session,4);
+//        deleteDepartment(session,4);
 
         factory.close();
         session.close();
