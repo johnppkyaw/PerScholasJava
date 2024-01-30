@@ -25,8 +25,8 @@ public class UserController {
 //        getRecordById(factory,session);
 //        getRecords(session);
 //        getMaxSalary(session);
-//        getMaxSalaryGroupBy(session);
-        namedQueryExample(session);
+        getMaxSalaryGroupBy(session);
+//        namedQueryExample(session);
 
         factory.close();
         session.close();
