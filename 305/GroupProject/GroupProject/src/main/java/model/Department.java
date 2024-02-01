@@ -2,6 +2,7 @@ package model;
 import jakarta.persistence.*;
 import java.io.Serial;
 import java.io.Serializable;
+import java.util.List;
 
 @Entity
 @Table
@@ -41,5 +42,6 @@ public class Department implements Serializable  {
     public void setDeptName(String deptName) {
         this.deptName = deptName;
     }
+
 }
 
