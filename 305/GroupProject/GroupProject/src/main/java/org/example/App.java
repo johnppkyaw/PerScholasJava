@@ -13,6 +13,7 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
+        //teachersDb database is used (check resources/hibernate.cfg.xml)
         manyToOneInteractive();
     }
     private static void manyToOneInteractive() {
