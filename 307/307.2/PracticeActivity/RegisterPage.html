@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+</head>
+<body>
+  <h1>Register Page</h1>
+  <form action="#">
+    <!-- First Name and Last Name fields-->
+    <label for="first_name">First Name</label>
+    <input type="text" name="first_name" id="first_name" placeholder="Enter Your First Name"><br>
+    <label for="last_name">Last Name</label>
+    <input type="text" name="last_name" id="last_name" placeholder="Enter Your Last Name"><br>
+
+    <!-- Email and password fields -->
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" placeholder="Enter Your Email"><br>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" placeholder="Enter your password"><br>
+    <label for="confirm_password">Confirm Password</label>
+    <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm Your Password"><br>
+
+    <label>Gender</label>
+    <input type="radio" name="gender" id="female">
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="male">
+    <label for="male">Male</label><br>
+
+    <label for="dob" required>Date of Birth</label>
+    <input type="date"><br>
+
+    <label>Habits</label>
+    <input type="checkbox" name="sports" id="sports">
+    <label for="sports">You like sports</label>
+    <input type="checkbox" name="eat" id="eat">
+    <label for="sports">You like to eat</label>
+    <input type="checkbox" name="sleep" id="sleep">
+    <label for="sports">You like to sleep</label><br>
+
+    <button type="submit">Register</button>
+  </form>
+
+</body>
+</html>
