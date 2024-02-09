@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gradients</title>
+  <style>
+    div {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 10px;
+      display: inline-block;
+    }
+    #box1{
+      background: linear-gradient(#f69d3c, #3f87a6);
+    }
+    #box2{
+      background: radial-gradient(#f69d3c, #3f87a6);
+    }
+    #box3{
+      background: repeating-linear-gradient(#f69d3c, #3f87a6 50px);
+    }
+    #box4{
+      background: repeating-radial-gradient(#f69d3c, #3f87a6 10px);
+    }
+    #box5{
+      background: conic-gradient(#f69d3c, #3f87a6);
+    }
+
+  </style>
+</head>
+<body>
+  <div id="box1"></div>
+  <div id="box2"></div>
+  <div id="box3"></div>
+  <div id="box4"></div>
+  <div id="box5"></div>
+</body>
+</html>
