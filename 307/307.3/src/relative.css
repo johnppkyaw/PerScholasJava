@@ -1,0 +1,27 @@
+/*
+        Emmet shortcut mt margin top
+        Emmet shortcut bgc background color
+        Emmet shortcut w width
+        Emmet shortcut h height
+        Emmet shortcut l left
+        Emmet shortcut bd border shorthand:
+        Emmet shortcut pos:r position:relative
+
+        Type selector =     div
+        Class selector =    .exampleBox
+        */
+
+        div {
+          width: 100px;
+          height: 100px;
+          border: 1px solid;
+      }
+
+      .exampleBox {
+          background-color: lightcoral;
+          width: 100px;
+          height: 100px;
+          position: relative;
+          top: 204px;
+          left: 102px;
+      }
