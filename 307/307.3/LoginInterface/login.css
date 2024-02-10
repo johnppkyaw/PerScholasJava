@@ -3,33 +3,32 @@ body {
 }
 
 #loginicon {
+  width: 40px;
   position: relative;
-  bottom: 40px;
+  bottom: 35px;
   border-radius: 100%;
-  border:5px solid #333;
-  border: none;
   box-shadow: 5px 8px 5px rgb(124, 123, 123);
 }
 
 main {
   border: 1px solid black;
   width: fit-content;
-  padding: 20px 60px;
+  padding: 10px 50px 15px;
   margin: 100px auto;
-  background-color:rgb(238, 237, 237);
+  background-color:rgb(241, 239, 239);
   box-shadow: 5px 10px 5px rgb(124, 123, 123);
 }
 
-
 h2{
-  font-size: 20px;
-  padding: 20px 0px;
+  font-size: 18px;
+  margin-top:0px;
+  margin-bottom: 40px;
 }
 
 input {
   width:150px;
   display: block;
-  margin: auto auto 30px;
+  margin: 0px auto 30px;
   padding:10px 10px;
   border: none;
 }
@@ -46,6 +45,7 @@ input {
   background-color: rgb(55, 202, 251);
 }
 
+/* pseudo-element */
 ::placeholder {
   text-align: center;
   padding:10px 0px;

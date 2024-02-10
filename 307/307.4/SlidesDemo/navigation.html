@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navigation Practice</title>
+
+    <style>
+    header{
+        margin-top: 100px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+        nav > ul {
+            display: flex;
+            list-style-type: none;
+            padding: 14px 0 14px 0;
+            /*When three values are specified, the first margin applies to the top, the second to the right and left, the third to the bottom.*/
+            margin: -8px -8px -8px;
+            background-color: white;
+            border: 1px dashed red;
+        }
+        li a {
+            border: 1px solid #000;
+            padding: 10px 30px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .link1{
+          margin-right: auto;
+        }
+        .link4a{
+          margin-right: auto;
+
+        }
+        #group3 {
+          justify-content: flex-end;
+        }
+        #group4 {
+          justify-content: center;
+        }
+        #group5 {
+          justify-content: space-between;
+        }
+        .link1e{
+          margin-right:auto;
+        }
+        .link3e{
+          margin-right:auto;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li class="link1"><a href="#">Link1</a></li>
+            <li class="link2"><a href="#">Link2</a></li>
+            <li class="link3"><a href="#">Link3</a></li>
+            <li class="link4"><a href="#">Link4</a></li>
+            <li class="link5"><a href="#">Link5</a></li>
+        </ul>
+    </nav>
+    <nav>
+      <ul>
+          <li class="link1a"><a href="#">Link1</a></li>
+          <li class="link2a"><a href="#">Link2</a></li>
+          <li class="link3a"><a href="#">Link3</a></li>
+          <li class="link4a"><a href="#">Link4</a></li>
+          <li class="link5a"><a href="#">Link5</a></li>
+      </ul>
+  </nav>
+  <nav>
+    <ul id="group3">
+        <li class="link1b"><a href="#">Link1</a></li>
+        <li class="link2b"><a href="#">Link2</a></li>
+        <li class="link3b"><a href="#">Link3</a></li>
+        <li class="link4b"><a href="#">Link4</a></li>
+        <li class="link5b"><a href="#">Link5</a></li>
+    </ul>
+    <ul id="group4">
+      <li class="link1c"><a href="#">Link1</a></li>
+      <li class="link2c"><a href="#">Link2</a></li>
+      <li class="link3c"><a href="#">Link3</a></li>
+      <li class="link4c"><a href="#">Link4</a></li>
+      <li class="link5c"><a href="#">Link5</a></li>
+  </ul>
+</nav>
+<nav>
+  <ul id="group5">
+      <li class="link1d"><a href="#">Link1</a></li>
+      <li class="link2d"><a href="#">Link2</a></li>
+      <li class="link3d"><a href="#">Link3</a></li>
+      <li class="link4d"><a href="#">Link4</a></li>
+      <li class="link5d"><a href="#">Link5</a></li>
+  </ul>
+</nav>
+<nav>
+  <ul id="group6">
+      <li class="link1e"><a href="#">Link1</a></li>
+      <li class="link2e"><a href="#">Link2</a></li>
+      <li class="link3e"><a href="#">Link3</a></li>
+      <li class="link4e"><a href="#">Link4</a></li>
+      <li class="link5e"><a href="#">Link5</a></li>
+  </ul>
+</nav>
+
+</header>
+</body>
+</html>
