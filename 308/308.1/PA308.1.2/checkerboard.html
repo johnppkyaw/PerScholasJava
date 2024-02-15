@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkerboard</title>
+</head>
+<body>
+  <script>
+    let width, height;
+    width = prompt("Enter width: ");
+    height = prompt("Enter height: ");
+    const star = '*';
+
+    const widthHeading = document.createElement('h3');
+    widthHeading.innerText = "Input width: " + width;
+    document.body.appendChild(widthHeading);
+
+    const heightHeading = document.createElement('h3');
+    heightHeading.innerText = "Input height: " + height;
+    document.body.appendChild(heightHeading);
+
+    const h3 = document.createElement('h3');
+    h3.innerText = "Shape: "
+    document.body.appendChild(h3);
+
+    for (let row = 0; row < height; row++) {
+      let star = '';
+      const div = document.createElement('pre');
+    for (let col = 0; col < width; col++) {
+      if(row % 2 == 0) {
+        if(col % 2 == 0) {
+          star += '*';
+        } else {
+          star += ' ';
+        }
+      } else {
+        if(col % 2 == 0) {
+          star += ' ';
+        } else {
+          star += '*';
+        }
+      }
+    }
+    div.innerText = star;
+    document.body.appendChild(div);
+  }
+  </script>
+</body>
+</html>

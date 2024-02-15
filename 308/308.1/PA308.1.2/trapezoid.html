@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upside-down trapezoid</title>
+</head>
+<body>
+  <h1>Upside-down trapezoid</h1>
+  <script>
+    let width, height;
+    width = prompt("Enter width: ");
+    height = prompt("Enter height: ");
+
+    const widthHeading = document.createElement('h3');
+    widthHeading.innerText = "Input width: " + width;
+    document.body.appendChild(widthHeading);
+
+    const heightHeading = document.createElement('h3');
+    heightHeading.innerText = "Input height: " + height;
+    document.body.appendChild(heightHeading);
+
+    const h3 = document.createElement('h3');
+    h3.innerText = "Shape: "
+    document.body.appendChild(h3);
+
+
+
+    const star = '*';
+
+    if(width - (2 * (height - 1)) <= 2) {
+
+      const h2 = document.createElement('h2');
+      h2.innerText = 'Impossible shape!';
+      document.body.appendChild(h2);
+
+    } else {
+      let spaces = '';
+      let stars = width;
+      let countHeight = height;
+
+      while(countHeight > 0) {
+        let currRow = spaces + star.repeat(stars) + spaces;
+
+        const pre = document.createElement('pre');
+        pre.innerText=currRow;
+        document.body.appendChild(pre);
+
+        spaces += ' ';
+        stars -= 2;
+        countHeight--;
+      }
+    }
+  </script>
+</body>
+</html>

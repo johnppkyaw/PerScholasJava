@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cross</title>
+</head>
+<body>
+  <h1>Cross</h1>
+  <script>
+    let size;
+    size = prompt("Enter size: ");
+    const star = '*';
+
+    const inputSize = document.createElement('h3');
+    inputSize.innerText = "Input size: " + size;
+    document.body.appendChild(inputSize);
+
+    const h3 = document.createElement('h3');
+    h3.innerText = "Shape: "
+    document.body.appendChild(h3);
+
+    let start = 0;
+    let end = size;
+
+    while (start <= size && end >= 0) {
+      let stars = '';
+      const pre = document.createElement('pre');
+      for(let row = 0; row <= size; row++) {
+        if(row == start || row == end) {
+          stars += star;
+        } else {
+          stars += ' ';
+        }
+      }
+      pre.innerText = stars;
+      document.body.appendChild(pre);
+      start++;
+      end--;
+    }
+
+    for (let row = 0; row < height; row++) {
+      let star = '';
+      const div = document.createElement('pre');
+    for (let col = 0; col < width; col++) {
+      if(row % 2 == 0) {
+        if(col % 2 == 0) {
+          star += '*';
+        } else {
+          star += ' ';
+        }
+      } else {
+        if(col % 2 == 0) {
+          star += ' ';
+        } else {
+          star += '*';
+        }
+      }
+    }
+    div.innerText = star;
+    document.body.appendChild(div);
+  }
+  </script>
+</body>
+</html>

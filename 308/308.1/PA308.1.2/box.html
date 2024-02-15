@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box</title>
+</head>
+<body>
+  <h1>Box</h1>
+  <script>
+    let width, height;
+    const star = '*';
+    let eachRow = '';
+
+    width = prompt("Enter width: ");
+    height = prompt("Enter height: ");
+
+    //DOM Manipulation
+    //create h3 node: <h3></h3>
+    const widthHeading = document.createElement('h3');
+
+    //<h3>Input width: (value of width)</h3>
+    widthHeading.innerText = "Input width: " + width;
+
+    //add <h3>Input width: (value of width)</h3> to the end of the <body>'s children
+      /*
+      open body tag
+      <h1>Box</h1>
+      <h3>Input width: (value of width)</h3>
+      close body tag
+      */
+    document.body.appendChild(widthHeading);
+
+    const heightHeading = document.createElement('h3');
+    heightHeading.innerText = "Input height: " + height;
+    document.body.appendChild(heightHeading);
+
+    const shapeHeading = document.createElement('h3');
+    shapeHeading.innerText = "Shape:";
+    document.body.appendChild(shapeHeading);
+
+    for(let col = 0; col < width; col++) {
+      eachRow += star;
+    }
+
+    for(let row = 0; row < height; row++) {
+
+      //<div></div>
+      const div = document.createElement('div');
+
+      //<div>**********</div>
+      div.innerText = eachRow;
+
+      //add as a last child to the body tag
+      document.body.appendChild(div);
+    }
+  </script>
+</body>
+</html>

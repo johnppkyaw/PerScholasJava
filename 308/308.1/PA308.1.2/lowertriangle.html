@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lower Triangle</title>
+</head>
+<body>
+  <h1>Lower Triangle</h1>
+  <script>
+    let size;
+    size = prompt("Enter side length: ");
+    const star = '*';
+
+    const inputSize = document.createElement('h3');
+    inputSize.innerText = "Input side length: " + size;
+    document.body.appendChild(inputSize);
+
+
+    const h3 = document.createElement('h3');
+    h3.innerText = "Shape: "
+    document.body.appendChild(h3);
+
+    let stars = '';
+
+    for(let row = 0; row < size; row++) {
+      const pre = document.createElement('pre');
+      stars += star;
+      pre.innerText = stars;
+      document.body.appendChild(pre);
+    }
+  </script>
+</body>
+</html>
