@@ -10,5 +10,5 @@ try {
    someFunc(4);
 } catch (e) {
    console.log("Logging Customer Error:")
-   console.log(e)
+   console.log(e.message)
 }

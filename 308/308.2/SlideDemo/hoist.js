@@ -3,5 +3,5 @@ hoist();
 function hoist() {
    console.log(x);
    // ReferenceError
-   const x = 2;
+   var x = 2;
 }
