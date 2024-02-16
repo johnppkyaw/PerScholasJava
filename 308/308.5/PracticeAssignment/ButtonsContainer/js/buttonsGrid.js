@@ -13,7 +13,7 @@ const button9 = document.getElementById("btn9");
 
 button5.addEventListener("click", (e) => {
   //save btn1's text
-  const btn1Text = document.getElementById("btn1").innerText;
+  const savedBtn1Text = document.getElementById("btn1").innerText;
 
   //btn1 takes btn4
   button1.innerText = button4.innerText;
@@ -36,54 +36,6 @@ button5.addEventListener("click", (e) => {
   //3 takes 2
   button3.innerText = button2.innerText;
 
-  //2 takes 1
-  button2.innerText = btn1Text;
-
-
-
-//Other way but very complex
-  // //to save the previous value of current node during the loop
-  // let nodePrevVal = {};
-
-  // //loop thru child element list
-  // for(let node of buttons) {
-  //   //get current node's id
-  //   nodeId = node.getAttribute("id");
-  //   switch(nodeId) {
-  //     case "btn1":
-  //       nodePrevVal.btn1 = node.innerText;
-  //       node.innerText = document.getElementById("btn4").innerText;
-  //       break;
-  //     case "btn2":
-  //       nodePrevVal.btn2 = node.innerText;
-  //       node.innerText = nodePrevVal.btn1;
-  //       break;
-  //     case "btn3":
-  //       nodePrevVal.btn3 = node.innerText;
-  //       node.innerText = nodePrevVal.btn2;
-  //       break;
-  //     case "btn4":
-  //       nodePrevVal.btn4 = node.innerText;
-  //       node.innerText = document.getElementById("btn7").innerText;
-  //       break;
-  //     case "btn6":
-  //       nodePrevVal.btn6 = node.innerText;
-  //       node.innerText = nodePrevVal.btn3;
-  //       break;
-  //     case "btn7":
-  //       nodePrevVal.btn7 = node.innerText;
-  //       node.innerText = document.getElementById("btn8").innerText;
-  //       break;
-  //     case "btn8":
-  //       nodePrevVal.btn8 = node.innerText;
-  //       node.innerText = document.getElementById("btn9").innerText;
-  //       break;
-  //     case "btn9":
-  //       node.innerText = nodePrevVal.btn6;
-  //       break;
-  //     //if it's button 5, do nothing
-  //     default:
-  //       break;
-  //   }
-  // }
+  //2 takes 1 from the saved value
+  button2.innerText = savedBtn1Text;
 })
