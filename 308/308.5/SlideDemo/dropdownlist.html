@@ -1,0 +1,25 @@
+<html>
+  <head>
+  <title>Drop-down Menu</title>
+  </head>
+  <script>
+    function mydropdown() {
+      var mylist = document.getElementById("myList");
+      document.getElementById("favourite").value =
+        mylist.options[mylist.selectedIndex].text;
+    }
+  </script>
+  <body>
+    <form>
+      <b>Select your favourite location for vacation:</b>
+      <select id="myList" onchange="mydropdown()">
+	  <option>---Choose Location---</option>
+	  <option>Florida</option>
+	  <option>New York</option>
+	  <option>Hollywood</option>
+	  <option>Texas</option>
+      </select>
+      <p>Your preferred vacation site is: <input type="text" id="favourite" size="20"/></p>
+    </form>
+  </body>
+</html>
