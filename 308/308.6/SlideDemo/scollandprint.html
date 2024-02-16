@@ -1,0 +1,28 @@
+<html>
+<head>
+   <title>Scroll and Print</title>
+   <style>
+       .outerDiv{
+           width: 500px;
+           height: 1000px;
+           border: 1px solid #000;
+           background-color: red;
+       }
+       .innerDiv{
+           width: 500px;
+           height: 500px;
+           background-color: green;
+       }
+   </style>
+</head>
+<body>
+   <h1>Scroll and Print</h1>
+   <p>Click the buttons below</p>
+   <button onclick="window.scroll(0,500)">Scroll</button>
+   <button onclick="window.print()">Print</button>
+
+   <div class="outerDiv">
+      <div class="innerDiv"></div>
+   </div>
+</body>
+</html>
