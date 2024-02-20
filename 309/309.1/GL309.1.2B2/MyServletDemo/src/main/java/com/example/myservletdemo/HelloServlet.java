@@ -2,9 +2,10 @@ package com.example.myservletdemo;
 
 import java.io.*;
 
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletException;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
-import jakarta.servlet.http.HttpServlet;
 
 @WebServlet(name = "helloServlet", value = "/hello-servlet")
 public class HelloServlet extends HttpServlet {
@@ -23,18 +24,37 @@ public class HelloServlet extends HttpServlet {
         out.println("<h1>" + message + "</h1>");
         out.println("</body></html>");
     }
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
+//    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
+//        response.setContentType("text/html");
+//        String username = request.getParameter("myName");
+//        String password = request.getParameter("password");
+//        PrintWriter out = response.getWriter();
+//        out.print("<html><head><title> Welcome to the Web World </title></head><body>");
+//        out.println("<h2> username is :" + username +"</h2> \n");
+//        out.println("<h2> password is :" + password + "</h2> \n");
+//        out.println("</body></html>");
+//    }
+protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException,  ServletException {
+    String user = "user";
+    String userPassword = "123";
+    String username = request.getParameter("myName");
+    String password = request.getParameter("password");
+    if(user.equals(username) & password.equals(userPassword)) {
         response.setContentType("text/html");
-        String username = request.getParameter("myName");
-        String password = request.getParameter("password");
-        PrintWriter out = response.getWriter();
-        out.print("<html><head><title> Welcome to the Web World </title></head><body>");
-        out.println("<h2> username is :" + username +"</h2> \n");
-        out.println("<h2> password is :" + password + "</h2> \n");
-        out.println("</body></html>");
-
-
+        PrintWriter pw = response.getWriter();
+        request.setAttribute("username", username);
+        request.setAttribute("password", password);
+        RequestDispatcher rd = request.getRequestDispatcher("/success.jsp");
+        rd.forward(request, response);
     }
+    else {
+        request.setAttribute("username", username);
+        request.setAttribute("password", password);
+        RequestDispatcher rd = request.getRequestDispatcher("/fail.jsp");
+        rd.forward(request, response);
+    }
+}
+
 
 
     public void destroy() {
