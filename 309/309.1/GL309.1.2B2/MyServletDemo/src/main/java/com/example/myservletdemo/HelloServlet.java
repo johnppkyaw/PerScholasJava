@@ -12,7 +12,7 @@ public class HelloServlet extends HttpServlet {
     private String message;
 
     public void init() {
-        message = "Hello World!";
+        message = "Hello World!  John here";
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -44,14 +44,21 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
         PrintWriter pw = response.getWriter();
         request.setAttribute("username", username);
         request.setAttribute("password", password);
+
+        System.out.println("username: " + username);
+        System.out.println("password: " + username);
+
         RequestDispatcher rd = request.getRequestDispatcher("/success.jsp");
         rd.forward(request, response);
+
     }
     else {
         request.setAttribute("username", username);
         request.setAttribute("password", password);
         RequestDispatcher rd = request.getRequestDispatcher("/fail.jsp");
         rd.forward(request, response);
+        System.out.println("username: " + username);
+        System.out.println("password: " + username);
     }
 }
 
