@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Person Display</title>
+</head>
+<body>
+<h2>Submitted Person</h2>
+<div th:each="person : ${submittedPerson}">
+    <p>Name: <span th:text="${person.name}"></span></p>
+    <p>Street: <span th:text="${person.street}"></span></p>
+    <p>Town: <span th:text="${person.town}"></span></p>
+    <p>Zip: <span th:text="${person.zip}"></span></p>
+</div>
+<a th:href="@{/}">back to form</a>
+</body>
+</html>
