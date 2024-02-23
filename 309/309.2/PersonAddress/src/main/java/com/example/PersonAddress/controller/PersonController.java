@@ -15,7 +15,6 @@ import java.util.List;
 
 @Controller
 public class PersonController {
-
     private static final Logger log = LogManager.getLogger(PersonController.class);
 
     List<Person> personList = new ArrayList<>();
@@ -29,6 +28,8 @@ public class PersonController {
     public String showForm(Model model) {
 
         //Default log level = Info
+        //Broad to Specific:
+            //Trace, Debug, Info, Warn, Fatal, Error
         log.trace("Trace msg from showForm method");
         log.debug("Debug msg from showForm method");
         log.info("Info msg from showForm method");
