@@ -1,11 +1,20 @@
 package com.example.PersonAddress.model;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class Person {
+    private static final Logger log = LogManager.getLogger(Person.class);
     private String name;
     private String street;
     private String town;
     private String zip;
     public Person() {
+        log.trace("Trace msg from no args Person constructor");
+        log.debug("Debug msg from no args Person constructor");
+        log.info("Info msg from no args Person constructor");
+        log.fatal("Info msg from no args Person constructor");
+        log.error("Info msg from no args Person constructor");
     }
     public Person(String name, String street, String town, String zip) {
         this.name = name;
