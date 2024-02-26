@@ -3,7 +3,7 @@ package com.example.ExerciseOne_Rest.TestController;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
-@RequestMapping("/home")
+@RequestMapping("home")
 public class MyController {
     @RequestMapping({"/login"})   // either type '/' or index
     public String showlogin()
