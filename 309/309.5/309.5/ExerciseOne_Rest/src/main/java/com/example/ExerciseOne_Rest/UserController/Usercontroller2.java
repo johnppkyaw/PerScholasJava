@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,5 +44,14 @@ public class Usercontroller2 {
         countries.add("Canada");
         return "home1";
     }
+
+    @GetMapping("/empInfo")
+    public String showEmpData(@RequestParam("id") int id, @RequestParam("name") String name, Model model)
+    {
+        User useobj = new User(id, name);
+        model.addAttribute("userAtt",useobj);
+        return "showData";
+    }
+
 }
 
