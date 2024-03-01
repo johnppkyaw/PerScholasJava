@@ -36,11 +36,7 @@ public class TutorialController {
         Optional<Tutorial> tutorialData = tutorialServices.getTutorialById(id);
 
         if (tutorialData.isPresent()) {
-            Tutorial _tutorial = tutorialData.get();
-            _tutorial.setTitle(tutorial.getTitle());
-            _tutorial.setDescription(tutorial.getDescription());
-            _tutorial.setPublished(tutorial.isPublished());
-            tutorialServices.addTutorial(_tutorial);
+            tutorialServices.updateTutorial(id, tutorial);
         }
     }
     @DeleteMapping("/tutorials/{id}")
