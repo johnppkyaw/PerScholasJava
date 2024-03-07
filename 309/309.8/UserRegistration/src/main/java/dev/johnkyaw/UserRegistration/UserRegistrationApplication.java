@@ -44,6 +44,5 @@ public class UserRegistrationApplication implements CommandLineRunner {
 
 		userRepository.save(user);
 
-
 	}
 }
